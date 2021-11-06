@@ -2,11 +2,11 @@ import { Container, Grid, Paper, Card, Typography, Button, Box } from "@mui/mate
 import React from "react"
 import { makeStyles } from '@mui/material/styles';
 import Link from "next/link"
-import GraphicCard from "../src/components/GraphicCard"
-import UICard from "../src/components/UICard";
-import IllustrateCard from "../src/components/IllustrateCard"
-import AnimationCard from "../src/components/AnimationCard";
-import Layout from "../src/components/Layout"
+import GraphicCard from "../src/components/home/GraphicCard"
+import UICard from "../src/components/home/UICard";
+import IllustrateCard from "../src/components/home/IllustrateCard"
+import AnimationCard from "../src/components/home/AnimationCard";
+import Layout from "../src/components/main/Layout"
 export default function Home() {
 
   return (

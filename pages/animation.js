@@ -11,10 +11,10 @@ import {
   Divider,
 } from "@mui/material";
 import React from "react";
-import Layout from "../src/components/Layout"
+import Layout from "../src/components/main/Layout"
 import Link from "next/link";
 
-import PortfolioMenu from "../src/components/PortfolioMenu";
+import PortfolioMenu from "../src/components/main/PortfolioMenu";
 
 
 

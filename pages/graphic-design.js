@@ -11,7 +11,7 @@ import {
   Divider,
 } from "@mui/material";
 import React from "react";
-import Layout from "../src/components/Layout";
+import Layout from "../src/components/main/Layout";
 
 export default function GraphicDesign() {
 
