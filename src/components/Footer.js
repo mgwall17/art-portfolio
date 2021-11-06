@@ -8,7 +8,6 @@ function Footer() {
 
     return (
       <React.Fragment>
-        <Container>
           <Box mb={3} mx={2} mt={4}>
             <Grid
               container
@@ -16,7 +15,7 @@ function Footer() {
               justify="center"
               alignItems="center"
             >
-              <Grid item md={7} align="center">
+              <Grid item md={12} align="center">
                 <Typography variant="body2" color="inherit" align="center">
                   {"Copyright © "}
                   Mariah Wall {new Date().getFullYear()}
@@ -25,7 +24,6 @@ function Footer() {
               </Grid>
             </Grid>
           </Box>
-        </Container>
       </React.Fragment>
     );
 }
