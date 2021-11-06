@@ -1,4 +1,6 @@
-# Art portfolio project using nextJS and Material Design v5
+# Art portfolio
+
+## project uses NextJS, Material Design v5 and deploys to Vercel
 
 Install it and run:
 
