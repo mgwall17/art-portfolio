@@ -33,7 +33,7 @@ export default function Home() {
           <Container>
             <Services />
             <Typography variant="h2" align="center">
-              Resume Stuff Test
+              Resume Stuff Test 2
             </Typography>
             <Typography variant="h6">Education</Typography>
             <List>
