@@ -12,45 +12,34 @@ import {
 } from "@mui/material";
 import React from "react";
 import Layout from "../src/components/main/Layout";
+import GraphicDesignCard from "../src/components/graphic-design/GraphicDesignCard";
+import images from "../public/images"
 
-export default function GraphicDesign() {
+export function GraphicDesign() {
 
   return (
     <React.Fragment>
       <Layout>
-      <Container maxWidth="lg">
-        <Typography variant="h2" align="center">
-          Graphic Design
-        </Typography>
-        <Box mt={3}>
-          <Container>
-            <Typography variant="h6" align="center">
-              Various Clients
-            </Typography>
-            <Grid
-              container
-              spacing={3}
-              direction="row"
-              alignItems="center"
-              justify="center"
-            >
-              <Grid item>
-                <Card>1</Card>
+        <Container maxWidth="lg">
+          <Typography variant="h2" align="center">
+            Graphic Design
+          </Typography>
+          <Box mt={3}>
+            <Container>
+              <Typography variant="h6" align="center">
+                Various Clients
+              </Typography>
+              <Grid container spacing={3}>
+                <Grid item md={6} s={12} xs={12} lg={3} xl={3}>
+                  <GraphicDesignCard />
+                </Grid>
               </Grid>
-              <Grid item>
-                <Card>2</Card>
-              </Grid>
-              <Grid item>
-                <Card>3</Card>
-              </Grid>
-              <Grid item>
-                <Card>4</Card>
-              </Grid>
-            </Grid>
-          </Container>
-        </Box>
-      </Container>
+            </Container>
+          </Box>
+        </Container>
       </Layout>
     </React.Fragment>
   );
 }
+
+export default GraphicDesign
